@@ -7,5 +7,5 @@ import{S as o}from"./vendor-10cb7c31.js";const a=[{preview:"https://cdn.pixabay.
 			alt="${p.description}"
 			/>
         </a>
-    </li>`).join("");i.innerHTML=t;new o(".gallery a",{captions:!0,captionDelay:250,captionData:"alt"});
-//# sourceMappingURL=1-gallery-e821090f.js.map
+    </li>`).join("");i.innerHTML=t;new o(".gallery a",{captions:!0,captionDelay:250,captionsData:"alt"});
+//# sourceMappingURL=1-gallery-261cc142.js.map
