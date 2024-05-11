@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Feedback Form</title>
+  </head>
+  <body>
+    <div class="header">
+      <button type="button">
+        <a href="./index.html">&lt;&lt; BACK</a>
+      </button>
+    </div>
+
+    <form class="feedback-form" autocomplete="on">
+      <label>
+        Email
+        <input
+          type="email"
+          name="email"
+          class="input"
+          placeholder="Type area"
+          autofocus
+        />
+      </label>
+      <label>
+        Message
+        <textarea name="message" class="textarea"></textarea>
+      </label>
+      <button type="submit">Submit</button>
+    </form>
+    <script src="./js/2-form.js" type="module"></script>
+  </body>
+</html>
