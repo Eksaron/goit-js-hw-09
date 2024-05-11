@@ -7,11 +7,12 @@
     <title>Vanilla App Template</title>
     
     <script type="module" crossorigin src="/goit-js-hw-09/assets/modulepreload-polyfill-3cfb730f.js"></script>
+    <script type="module" crossorigin src="/goit-js-hw-09/assets/2-form-4123e5a5.js"></script>
     <script type="module" crossorigin src="/goit-js-hw-09/assets/vendor-10cb7c31.js"></script>
     <script type="module" crossorigin src="/goit-js-hw-09/assets/1-gallery-261cc142.js"></script>
+    <link rel="stylesheet" href="/goit-js-hw-09/assets/2-form-0dee84e6.css">
     <link rel="stylesheet" href="/goit-js-hw-09/assets/1-gallery-c113a493.css">
     <link rel="stylesheet" href="/goit-js-hw-09/assets/vendor-a088063d.css">
-    <link rel="stylesheet" href="/goit-js-hw-09/assets/styles-39b00fd8.css">
   </head>
   <body>
     <div class="header">
@@ -28,6 +29,42 @@
 <!-- <script src="dist/basicLightbox.min.js"></script> -->
 
 
+
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Feedback Form</title>
+  </head>
+  <body>
+    <div class="header">
+      <button type="button">
+        <a href="./index.html">&lt;&lt; BACK</a>
+      </button>
+    </div>
+
+    <form class="feedback-form" autocomplete="on">
+      <label>
+        Email
+        <input
+          type="email"
+          name="email"
+          class="input"
+          placeholder="Type area"
+          autofocus
+        />
+      </label>
+      <label>
+        Message
+        <textarea name="message" class="textarea"></textarea>
+      </label>
+      <button type="submit">Submit</button>
+    </form>
+    
+  </body>
+</html>
 
 
     <!-- <script type="module" src="./main.js"></script> -->
